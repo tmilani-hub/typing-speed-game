@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+:root {
+	--Neutral-900: #121212;
+	--Neutral-800: #262626;
+	--Neutral-500: #717178;
+	--Neutral-400: #949497;
+	--Neutral-0: #ffffff;
+	--Blue-600: #177dff;
+	--Blue-400: #4ca6ff;
+	--Red-500: #d64d5b;
+	--Green-500: #4dd67b;
+	--Yellow-400: #f4dc73;
+}
+
+.color-Neutral-400 {
+	color: var(--Neutral-400);
+}
+
+.Text-Preset-1 {
+	font-weight: 700;
+	font-size: 40px;
+	letter-spacing: 0.4px;
+}
+.Text-Preset-1-Mobile {
+	font-weight: 700;
+	font-size: 24px;
+	letter-spacing: 0.32px;
+}
+.Text-Preset-1-Regular {
+	font-weight: 400;
+	font-size: 40px;
+	letter-spacing: 0.4px;
+}
+.Text-Preset-1-Regular-Mobile {
+	font-weight: 400;
+	font-size: 32px;
+	letter-spacing: 0.4px;
+}
+.Text-Preset-2 {
+	font-weight: 700;
+	font-size: 24px;
+	letter-spacing: 0%;
+}
+.Text-Preset-3 {
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: -0.6px;
+}
+.Text-Preset-3-Mobile {
+	font-weight: 400;
+	font-size: 16px;
+	letter-spacing: -0.48px;
+}
+.Text-Preset-3-SemiBold {
+	font-weight: 600;
+	font-size: 20px;
+	letter-spacing: -0.3px;
+}
+.Text-Preset-4 {
+	font-weight: 400;
+	font-size: 18px;
+	letter-spacing: -0.6px;
+}
+.Text-Preset-5 {
+	font-weight: 400;
+	font-size: 16px;
+	letter-spacing: -0.48px;
+}
+.Text-Preset-6 {
+	font-weight: 400;
+	font-size: 12px;
+	letter-spacing: 0%;
+}
+
+.button-primary {
+	background-color: var(--Blue-500);
+	border-radius: 12px;
+	color: var(--Neutral-0);
+	border: 2px solid none;
+	padding: 12px 16px;
+}
+
+.button-primary:hover {
+	background-color: var(--Blue-400);
+}
+
+.button-primary:active {
+	border-color: var(--Blue-400);
+}
+
+.button-secondary {
+	background-color: var(--Neutral-800);
+	border-radius: 12px;
+	color: var(--Neutral-0);
+	border: 2px solid var(--Neutral-900);
+	padding: 8px 12px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+}
+
+.button-secondary:hover {
+	background-color: var(--Neutral-400);
+}
+
+.button-secondary:active {
+	border-color: var(--Blue-400);
+}
+
+.button-choice {
+	background-color: var(--Neutral-900);
+	border-radius: 12px;
+	color: var(--Neutral-0);
+	padding: 6px;
+	border: 2px solid var(--Neutral-800);
+}
+
+.button-choice:hover {
+	border-color: var(--Blue-600);
+	color: var(--Blue-600);
+}
+
+.button-choice:active {
+	border-color: var(--Blue-400);
+}
+
+.flex-style-normal {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+}
+
+.collumns {
+	flex-direction: column;
+}
+
+.color-yellow {
+	color: var(--Yellow-400);
+}
+
+.color-red {
+	color: var(--Red-500);
+}
+
+hr {
+	border-color: var(--Neutral-800);
+}
