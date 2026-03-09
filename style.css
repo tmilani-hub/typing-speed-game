@@ -36,11 +36,11 @@ header {
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: start;
-    gap: 12px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: start;
+	gap: 12px;
 }
 
 #scoreANDdificulti {
