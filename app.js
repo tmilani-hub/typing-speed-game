@@ -1,4 +1,4 @@
-const facile = [
+const Word_Easy = [
 	"chat",
 	"chien",
 	"pain",
@@ -185,7 +185,7 @@ const facile = [
 	"ouvre",
 	"ferme",
 ];
-const moyen = [
+const Word_Average = [
 	"maison",
 	"voiture",
 	"ordinateur",
@@ -364,7 +364,7 @@ const moyen = [
 	"developpement",
 	"croissance",
 ];
-const difficile = [
+const Word_Hard = [
 	"administration",
 	"organisationnel",
 	"responsabilite",
